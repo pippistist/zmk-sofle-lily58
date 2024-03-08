@@ -12,7 +12,7 @@
 #define LOWER 1
 #define RAISE 2
 #define ADJUST 3
- 
+
 / {
     // Activate ADJUST layer by pressing raise and lower
 
@@ -44,7 +44,9 @@
                    &kp LGUI  &kp CLCK  &kp LALT  &mo LOWER  &kp SPACE    &kp RET    &mo RAISE  &kp DEL  &kp RALT   &kp RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_DN PG_UP>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOLUME_DOWN C_VOL_UP>,
+                <&inc_dec_kp PG_DN PG_UP>;
         };
 
         lower_layer {

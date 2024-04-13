@@ -73,7 +73,7 @@
 &kp F1  &kp F2  &kp F3    &kp F4    &kp F5     &kp F6                    &kp F7         &kp F8        &kp F9    &kp F10        &kp F11        &kp F11
 &none   &none   &none     &kp UP    &none      &none                     &kp PAGE_UP    &kp LC(LEFT)  &kp UP    &kp LC(RIGHT)  &kp ESCAPE     &none
 &none   &mo 2   &kp LEFT  &kp DOWN  &kp RIGHT  &none                     &kp PAGE_DOWN  &kp LEFT      &kp DOWN  &kp RIGHT      &kp BACKSPACE  &kp DEL
-&none   &none   &none     &none     &none      &none   &trans    &trans  &trans         &kp HOME      &kp END   &none          &none          &none
+&none   &none   &none     &none     &none      &none   &trans    &trans  &kp HOME       &kp END       &none     &none          &none          &none
                 &trans    &trans    &trans     &trans  &trans    &trans  &mo 5          &none         &none     &none
             >;
 
@@ -87,7 +87,7 @@
 &none  &none  &none  &none  &none  &none                  &none              &none             &none         &none              &none  &none
 &none  &none  &none  &none  &none  &none                  &kp LS(PAGE_UP)    &kp LS(LC(LEFT))  &kp LS(UP)    &kp LC(LS(RIGHT))  &none  &none
 &none  &none  &none  &none  &none  &none                  &kp LS(PAGE_DOWN)  &kp LS(LEFT)      &kp LS(DOWN)  &kp LS(RIGHT)      &none  &none
-&none  &none  &none  &none  &none  &none  &none    &none  &none              &kp LS(HOME)      &kp LS(END)   &none              &none  &none
+&none  &none  &none  &none  &none  &none  &none    &none  &kp LS(HOME)       &kp LS(END)       &none         &none              &none  &none
               &none  &none  &none  &none  &none    &none  &none              &none             &none         &none
             >;
         };
@@ -118,7 +118,7 @@
 &none       &none         &none         &none         &none         &none                         &none  &none  &none  &none  &none  &none
 &none       &none         &none         &none         &none         &none                         &none  &none  &none  &none  &none  &none
 &none       &none         &none         &none         &none         &none         &none    &none  &none  &none  &none  &none  &none  &none
-                          &to 0         &to 6         &none         &none         &none    &none  &none  &none  &none  &none
+                          &to 0         &tog 6        &none         &none         &none    &none  &none  &none  &none  &none
             >;
         };
 
